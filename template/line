@@ -4,22 +4,16 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const PokemonCard = ({ name, image, type }) => {
   return (
     <View style={styles.card}>
-      <Image  source={require('./assets/char.png')} style={styles.image} />
-      <View style={styles.details}>
-        <Text style={styles.name}>Name :Charmander </Text>
-        <Text style={styles.type}>Type : Fire </Text>
         <View style={styles.line} />
-        <Text style={styles.details}>It has a preference for hot things. {'\n'} When it rains, steam is said to spout from the tip of its tail.</Text>
-      </View>
+     </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   card: {
-    flex: 1,
     backgroundColor: '#fff',
-    borderRadius: 20,
+    borderRadius: 10,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -27,7 +21,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-    elevation: 20,
+    elevation: 5,
     margin: 10,
   },
   image: {
@@ -46,18 +40,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 5,
-    textAlign: 'left',
   },
   type: {
     fontSize: 16,
     textAlign: 'center',
-    fontWeight: 'bold',
-    textAlign: 'left',
-    backgroundColor: '#f09124',
-    padding: 10,
   },
   line: {
-    borderBottomWidth: 5,
+    borderBottomWidth: 1,
     borderBottomColor: 'gray',
     marginVertical: 10,
   },
