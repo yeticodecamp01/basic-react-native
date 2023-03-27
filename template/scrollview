@@ -1,0 +1,30 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View ,Button,TextInput ,ScrollView} from 'react-native';
+
+export default function App() {
+ 
+  return (
+   <ScrollView style={{padding: 20}}>
+    <Text style={{marginBottom: 30, fontWeight: 'bold'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+    <Text  style={{marginBottom: 30}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque recusandae esse, maiores, ratione impedit dolorem nihil similique enim dolorum reprehenderit sapiente vero repellendus placeat nisi! Temporibus nisi porro magnam?</Text>
+   
+   </ScrollView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

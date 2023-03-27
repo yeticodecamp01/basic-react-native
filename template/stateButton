@@ -1,0 +1,29 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View ,Button } from 'react-native';
+
+export default function App() {
+  var intro ="Welcome To First Application";
+
+  const  nepal=()=>{
+ 
+    alert("working");
+
+  };
+  return (
+    <View style={styles.container}>
+      <StatusBar style="auto" />
+      <Text>{intro}</Text>
+          <Button title = "Click Me" onPress = {nepal}> 
+          </Button>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
