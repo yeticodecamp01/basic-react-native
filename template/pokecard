@@ -1,16 +1,19 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const PokemonCard = ({ name, image, type }) => {
   return (
     <View style={styles.card}>
       <Image  source={require('./assets/char.png')} style={styles.image} />
       <View style={styles.details}>
-        <Text style={styles.name}>Name :Charmander </Text>
-        <Text style={styles.type}>Type : Fire </Text>
+        <Text style={styles.name}> <Icon name="info" size={30} color="#900" /> Name :Charmander </Text>
+        <Text style={styles.type}> <Icon name="question" size={30} color="#900" /> Type : Fire </Text>
         <View style={styles.line} />
         <Text style={styles.details}>It has a preference for hot things. {'\n'} When it rains, steam is said to spout from the tip of its tail.</Text>
       </View>
+     
+
     </View>
   );
 };
